@@ -11,3 +11,89 @@
     grid-template-areas: "nav" "header" "main" "footer";
 }
 
+/* NAVBAR STYLE */
+
+.navbar {
+    background-color: rgb(59, 156, 217);
+}
+
+.logo{
+    width: 5vh
+}
+
+.navbar-toggler-icon {
+    color: rgb(225, 225, 225);
+}
+
+.nav-link{
+    color: rgb(225, 225, 225);
+}
+
+/* HEADER STYLE */
+
+.headerImg {
+    width: 100%;
+}
+
+/* MAIN STYLE */
+
+.titleMain {
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+/* PRODUCT SECTION */
+
+.productSection {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.productSection .mainProduct {
+    background-color: rgb(225, 225, 225);
+    padding: 2%;
+    border: solid rgb(225, 225, 225)  ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: -5px 5px 10px 5px #DCDCDC, 5px -5px 10px 5px #DCDCDC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productSection .mainProduct h3 {
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+.productSection .mainProduct p {
+    width: 40%;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.productSection .mainProduct img {
+    width: 50%;
+    object-fit: contain;    
+}
+
+.productSection .mainProduct .productLink {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* MATERIAL SECTION */
+
+.materialSection {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.materialSection h2 {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
