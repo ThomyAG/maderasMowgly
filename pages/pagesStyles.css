@@ -1,0 +1,10 @@
+/* HEADER */
+.headerPages {
+    text-align: center;
+}
+
+.headerPages img {
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}

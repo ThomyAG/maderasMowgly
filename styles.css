@@ -15,6 +15,7 @@
 
 .navbar {
     background-color: rgb(59, 156, 217);
+    grid-area: "nav";
 }
 
 .logo{
@@ -29,13 +30,13 @@
     color: rgb(225, 225, 225);
 }
 
-/* HEADER STYLE */
+/* HEADER */
 
 .headerImg {
     width: 100%;
 }
 
-/* MAIN STYLE */
+/* MAIN */
 
 .titleMain {
     margin-top: 5%;
@@ -60,24 +61,28 @@
     margin-bottom: 10%;
     box-shadow: -5px 5px 10px 5px #DCDCDC, 5px -5px 10px 5px #DCDCDC;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 .productSection .mainProduct h3 {
     width: 100%;
-    font-size: 1.7rem;
-}
-
-.productSection .mainProduct p {
-    width: 40%;
-    font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .productSection .mainProduct img {
-    width: 50%;
+    width: 100%;
+    margin-bottom: 5%;
     object-fit: contain;    
+}
+
+.productSection .mainProduct p {
+    width: 100%;
+    font-weight: 300;
+    font-size: 1rem;
 }
 
 .productSection .mainProduct .productLink {
@@ -88,12 +93,57 @@
 /* MATERIAL SECTION */
 
 .materialSection {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5% 1% 10% 1% ;
+    padding: 5% 2% 5% 2%; 
+    background-color: rgb(168, 86, 1);
+    border-radius: 2%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 .materialSection h2 {
     font-weight: 500;
     font-size: 1.7rem;
+    color: rgb(225, 225, 225);
+
+}
+
+.materialArticle {
+    width: 80%;
+    text-align: center;
+    border: solid rgb(225, 225, 225);
+    margin-top: 5% ;
+}
+
+.materialArticle h3 {
+    font-weight: 300;
+    color: rgb(225, 225, 225);
+    margin: 2% 0% 5% 0%;
+}
+
+.materialArticle img {
+    width: 100%;
+    padding: 10% 5% 15% 5%;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    background-color: rgb(0, 75, 99);
+}
+
+.footer h2 {
+    color: rgb(225, 225, 225);
+    margin: 1% 0% 2% 2%;
+}
+
+.logoIgConteiner {
+    margin: 1% 0% 5% 2%;
+}
+
+.footer ion-icon {
+    font-size: 20px;
+    color: white;
 }
